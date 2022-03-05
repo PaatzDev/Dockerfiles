@@ -7,4 +7,4 @@ LABEL org.opencontainers.image.source $repo_url
 
 COPY app/ app/
 WORKDIR /app
-ENTRYPOINT ["dotnet", $entrypoint]
+ENTRYPOINT ["dotnet", "ShiftManager.dll"]
